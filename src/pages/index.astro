@@ -1,9 +1,22 @@
 ---
+import { Icon } from 'astro-icon/components';
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-
+<div class="my-custom-class">
+    asdas
+</div>
+<Icon name="mdi:upload-outline" size="56" class="text-lime-400" />
+<Icon name="eos-icons:compass" />
+<span class="font-myfont italic">
+    Hola mucasfdas
+</span>
 </Layout>
+
+<style>
+    .my-custom-class{
+        @apply bg-orange-400 text-white text-2xl
+    }
+</style>
 
